@@ -1,1 +1,1 @@
-gunicorn Netflix.wsgi--log-file-
+web: gunicorn netflix.wsgi -- log-file-
