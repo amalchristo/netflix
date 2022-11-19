@@ -5,4 +5,5 @@ app_name='homepg'
 urlpatterns = [
     path('', views.home,name='home'),
     path('movies', views.movies,name='movie'),
+    path('tvshows', views.tvshows,name='shows'),
 ]

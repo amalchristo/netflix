@@ -5,4 +5,7 @@ def home(request):
 
 def movies(request):
     return render(request,'movies.html')
+
+def tvshows(request):
+    return render(request,'Tvshows.html')
 # Create your views here.
