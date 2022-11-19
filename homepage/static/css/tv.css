@@ -25,3 +25,68 @@ header {
 .tittle a {
     margin: 20px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 70px;
+    background-color: black;
+    padding: 50px;
+    background-repeat: no-repeat;
+  }
+.chiled1 {
+    background-image: url(../image/show1.jpg);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+.chiled2 {
+    background-image: url(../image/show2.jpg);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+.chiled3 {
+    background-image: url(../image/show3.jpg);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+.chiled4 {
+    background-image: url(../image/show4.webp);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+.chiled5 {
+    background-image: url(../image/show5.jpg);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+.chiled6 {
+    background-image: url(../image/show6.jpg);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+.chiled7 {
+    background-image: url(../image/show7.jpg);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
+.chiled8 {
+    background-image: url(../image/show8.webp);
+    background-size: contain;
+    height: 200px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+}
