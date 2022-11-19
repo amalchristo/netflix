@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/bg2.jpg);
+}
+.tittle {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(182, 177, 177);
+    font-size: 25px;
+
+}
+.tittle a {
+    margin: 20px;
+}
+.container {
+    display: grid;
+    height: 400px;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 20px;
+
+}
+.chiled1{
+    background-image: url(../image/lucifer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align:left;
+    height: 200px;
+}
+.chiled2{
+    background-image: url(../image/flash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px;
+}
+.chiled3{
+    background-image: url(../image/1img.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px;
+}
+.chiled4{
+    background-image: url(../image/lucifer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px;
+}
+.chiled5{
+    background-image: url(../image/flash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px;
+}
+
+.one-gp{
+    background-color: black;
+    color: whitesmoke;
+}

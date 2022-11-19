@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'image/netflix-logo.png' %}" type="image/x-icon">
+    <title>Netflix-Movies</title>
+    <link rel="stylesheet" href="{% static 'css/movies.css' %}">
+</head>
+<body>
+    <header>
+        <div class="tittle">
+            <a href="{% url 'homepg:home' %}">NETFLIX</a>
+            <a href="{% url 'homepg:home' %}">home</a>
+            <a href="#">TV Shows</a>
+            <a href="{% url 'homepg:movie' %}">movies</a>
+            <a href="#">new & popiler</a>
+            <a href="#">my list</a>
+            <a href="#">brows & language</a>
+        </div>
+    </header>
+    <main>
+        <div class="one-gp"><h1>movies</h1></div>
+        <div class="container">
+            <a href=""><div class="chiled1"><h3></h3></div></a>
+            <div class="chiled2"><h3></h3></div>
+            <div class="chiled3"><h3></h3></div>
+            <div class="chiled4"><h3></h3></div>
+            <div class="chiled5"><h3></h3></div>
+            <div class="chiled6"><h3></h3></div>
+            <div class="chiled7"><h3></h3></div>
+            <div class="chiled8"><h3></h3></div>
+            <div class="chiled9"><h3></h3></div>
+            <div class="chiled10"><h3></h3></div>
+        </div>
+    </main>

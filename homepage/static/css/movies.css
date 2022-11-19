@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/movies01.jpg);
+}
+.tittle {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(182, 177, 177);
+    font-size: 25px;
+
+}
+.tittle a {
+    margin: 20px;
+}
+.container {
+    display: grid;
+    height: 700px;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    background-color: black;
+    padding: 20px;
+}
+.chiled1{
+    height: 200px;
+    background-image: url(../image/1img.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled2{
+    height: 200px;
+    background-image: url(../image/movies01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled3{
+    height: 200px;
+    background-image: url(../image/movies2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled4{
+    height: 200px;
+    background-image: url(../image/movies3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled5{
+    height: 200px;
+    background-image: url(../image/movies3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled6{
+    height: 200px;
+    background-image: url(../image/movies2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled7{
+    height: 200px;
+    background-image: url(../image/movies3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled8{
+    height: 200px;
+    background-image: url(../image/movies01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled9{
+    height: 200px;
+    background-image: url(../image/movies3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.chiled10{
+    height: 200px;
+    background-image: url(../image/movies2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.one-gp{
+    background-color: black;
+    color: whitesmoke;
+}

@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'image/netflix-logo.png' %}" type="image/x-icon">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+    <header>
+        <a href="#" id="mhr">NETFLIX</a>
+        <div class="main-head">
+            <h1>welcome to the new world</h1>
+            <h2>this world of endertaiment will satisfay you</h2>
+        </div>
+        <div class="go-kee">
+            <a href="{% url 'homepg:home' %}"><h1>Get Start</h1></a>
+        </div>
+    </header>
+    <main>
+        <div class="group-one">
+            <div class="one-left">
+                <div class="igs"></div>
+            </div>
+            <div class="one-right">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, laudantium mollitia tempore aliquid
+                    repellendus ea magni porro nulla voluptatem perspiciatis quae error, eligendi consectetur. Aut error
+                    corporis nostrum dolore numquam!</h1>
+            </div>
+        </div>
+        <div class="upcoming">
+            <h1>upcoming shows</h1>
+            <div class="row">
+                <div class="col">
+                    <img src="{% static 'images/ck.jpg' %}" alt="">
+                    <h1>cobra kai season 5</h1>
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita assumenda non vero at, saepe sit deleniti libero fuga sequi explicabo.</h3>
+                </div>
+                <div class="col">
+                    <img src="{% static 'images/ck.jpg' %}" alt="">
+                    <h1>cobra kai season 5</h1>
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita assumenda non vero at, saepe sit deleniti libero fuga sequi explicabo.</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="foot">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae praesentium asperiores impedit aliquid delectus amet.</p>
+        <h3>copyright 2020 adventure</h3>
+    </div>
+</body>
+
+</html>
