@@ -17,13 +17,19 @@ header {
 }
 .tittle {
     width: 100%;
-    height: 50px;
+    height: 100px;
     border-bottom: 1px solid rgb(182, 177, 177);
     font-size: 25px;
+    background-color: black;
 
+}
+#btn{
+    width: 200px;
+    height: 85px;
 }
 .tittle a {
     margin: 20px;
+    font-size: 20px;
 }
 .grid-container {
     display: grid;
